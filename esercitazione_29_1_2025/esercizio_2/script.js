@@ -32,3 +32,15 @@ if (document.getElementById("mucca")) {
     document.getElementById("mucca").innerHTML = 
         `Specie: ${mucca.specie}, Razza: ${mucca.razza}, Zampe: ${mucca.zampe}`;
 }
+
+
+
+function playSound(event, soundFile) {
+    event.preventDefault();
+    let audio = new Audio(soundFile);
+    audio.play();
+    
+    setTimeout(() => {
+        window.location.href = event.target.href;
+    }, 2000);
+}
