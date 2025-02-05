@@ -1,0 +1,33 @@
+Come vedi nella pagina html non è stata inserita una canvas.
+Quando viene aggiunta?
+
+la canvas viene aggiunta nel js invece di dove la mettiamo solitamente, nel html
+
+Spiega queste righe di codice
+<body onload="startGame()">
+
+viene usato per eseguire startgame al caricamento della pagina
+
+
+
+
+myGameArea.start();
+è un oggetto che dentro ha una funzione, che esegue:
+
+    this.canvas.width = 480;
+    this.canvas.height = 270;
+    this.context = this.canvas.getContext("2d");
+    document.body.insertBefore(this.canvas, document.body.childNodes[0]);
+
+
+
+A cosa serve l’oggetto myGameArea?
+
+
+A cosa serve il metodo start?
+
+
+In che modo viene creato un oggetto canvas?
+
+
+Come viene aggiunto al body della pagina?
