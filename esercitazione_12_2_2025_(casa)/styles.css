@@ -1,59 +1,52 @@
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: Arial, sans-serif;
     background-color: #f4f4f4;
+    margin: 20px;
     padding: 20px;
-  }
-  
-  .artist {
-    margin-bottom: 30px;
-  }
-  
-  .artist h2 {
-    margin-bottom: 10px;
-    font-size: 18px;
-  }
-  
-  .song {
-    border-top: 1px solid #ddd;
-    padding: 10px 0;
-  }
-  
-  .song img {
-    width: 100px;
-    height: 100px;
-    display: inline-block;
-    margin-right: 20px;
-  }
-  
-  .song-info {
-    display: inline-block;
-    vertical-align: top;
-    width: calc(100% - 140px);
-  }
-  
-  .song-info p {
-    margin: 5px 0;
-  }
-  
-  button {
+}
+
+h1 {
+    color: #333;
+}
+
+h2 {
+    color: #555;
+}
+
+.artist-container {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.song-container {
     margin-top: 10px;
-    padding: 5px 10px;
+    padding: 10px;
+    border-top: 1px solid #ddd;
+}
+
+img {
+    width: 200px;
+    height: auto;
+}
+
+iframe {
+    margin-top: 10px;
+}
+
+button {
+    display: block;
+    margin-top: 10px;
+    padding: 8px;
     background-color: #007BFF;
     color: white;
     border: none;
-    border-radius: 4px;
     cursor: pointer;
-  }
-  
-  button:hover {
+    border-radius: 5px;
+}
+
+button:hover {
     background-color: #0056b3;
-  }
-  
-  .video {
-    width: 300px;
-    height: 180px;
-    background-color: #000;
-    display: inline-block;
-    margin-left: 20px;
-  }
-  
+}

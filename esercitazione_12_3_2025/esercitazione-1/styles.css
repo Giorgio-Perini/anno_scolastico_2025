@@ -1,0 +1,28 @@
+canvas {
+    border: 1px solid #d3d3d3;
+    background-color: #f1f1f1;
+}
+
+.frecci_su {
+    position: relative;
+    top: 10px;  
+    left: 30px;
+}
+
+.frecci_giu {
+    position: relative;
+    top: 40px;  
+    left: -59px;
+}
+
+.frecci_destra {
+    position: relative;
+    top: 26px;  
+    left: 30px;
+}
+
+.frecci_sinistra {
+    position: relative;
+    top: 27px;  
+    left: -59px;
+}
